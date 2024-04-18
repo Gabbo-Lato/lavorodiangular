@@ -1,0 +1,60 @@
+<div *ngIf="isHomepageVisible" class="container-fluid bg-light py-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h2 class="card-title">Questa è la miglior pagina del Galvani</h2>
+            <p class="card-text">Questa è la miglior pagina web fatta dal Galvani, perchè fatta dal sotto scritto Gabbo The King il miglior Web Developer in circolazione che abbreve diventarà famoso e ricercato in tutte le industrie commerciali del web design
+                in questa pagina troveremo le varie funzioni che so utilizzare grazie ad angular e bootstrap 5, grazie molte per l'attenzione divertiti :D
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h2 class="card-title">Team fortress 2 è un gioco bello</h2>
+            <p class="card-text">
+                Team Fortress 2 (TF2) è un videogioco multiplayer online sviluppato e pubblicato da Valve Corporation. È un gioco sparatutto in prima persona (FPS) caratterizzato da una grafica colorata e uno stile artistico cartoonesco che lo rende unico nel suo genere. Rilasciato originariamente nel 2007 come parte della raccolta di giochi "The Orange Box", TF2 è diventato rapidamente uno dei giochi più popolari su Steam, la piattaforma di distribuzione digitale di Valve.
+                
+                Il gioco si distingue per la sua varietà di classi di personaggi, ognuna con abilità e stili di gioco unici. Ci sono nove classi tra cui scegliere, tra cui il soldato, il demoman, l'ingegnere, il pyro, lo spia e altri ancora. Ogni classe ha armi e abilità speciali che possono essere utilizzate per aiutare la propria squadra e ottenere la vittoria.
+                
+                Team Fortress 2 presenta una serie di modalità di gioco, tra cui la classica modalità di cattura la bandiera, la modalità di controllo territoriale, la modalità di carico esplosivo e altre ancora. Inoltre, il gioco offre una vasta gamma di mappe, ognuna con layout unici e strategie di gioco specifiche.
+                
+                Uno degli aspetti più apprezzati di TF2 è il suo umorismo e la sua personalità. I personaggi sono caratterizzati da dialoghi divertenti e distintivi e da un design visivo eccentrico. Il gioco ha anche una vasta gamma di oggetti cosmetici che consentono ai giocatori di personalizzare l'aspetto dei loro personaggi, aggiungendo ulteriori elementi di divertimento e personalizzazione.
+                
+                Negli anni, Team Fortress 2 ha continuato a ricevere aggiornamenti e nuovi contenuti da parte degli sviluppatori, mantenendo così una solida base di giocatori e una comunità attiva. TF2 è diventato un'icona nel panorama dei giochi multiplayer online e continua ad essere apprezzato da milioni di giocatori in tutto il mondo.
+                ho voluto portare questo videogioco nella mia pagina perchè è il gioco preferito del mio prof che mi ha svolatato la vita, sarà grazie a lui che diventerò ricco, bello e famoso.    
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h2 class="card-title">League of Legends fa schifo</h2>
+            <p class="card-text">CIAO GAMER FACCIAMO UN GIOCO ipotiziamo che hai appena disinstallato league of legends è hai appena svoltato la tua vita sociale grazie a questa azione, hai scoperto
+                un sacco di modi per socializzare e fare nuove conoscenze, hai toccato l'erba per la prima volta, hai preso il sole dopo tanto tempo e ti sei ricordato quanto il mondo sia felice e gioioso senza passare le intere giornate di sole rinchiuso nella tua tana da "gaming" giocando a un gioco che fa male.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="text-center mt-3">
+            <button class="btn btn-secondary" (click)="showContainer()">Mostra altro</button>
+        </div>
+        
+        <!-- Container aggiuntivo nascosto -->
+        <div class="row mt-3" *ngIf="showAdditionalContainer">
+            <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                <h2 class="card-title">Ngif</h2>
+                <p class="card-text">Un altro motivo perchè sono il king, so fare l'Ngif, e non solo...</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+  </div>
